@@ -1,5 +1,7 @@
 body {
   font-family: 'Roboto';
+  display: flex;
+  justify-content: center;
 }
 
 .logo {
@@ -7,14 +9,19 @@ body {
   padding: 40px 0;
 }
 .wrapper{
+  width: 80%;
+  border: dashed 1px green;
+}
 .header {
   display: flex;
   justify-content: space-between;
   margin: auto;
-  width: 80%;
-  border: dashed 1px red;
+  width: 100%;
+  border: dashed 1px green;
 }
 .menu__item:last-child{
- padding: 0 13px;
- border:dashed 1px red;
+ margin: 0;
+ border:dashed 1px green;
 }
+.menu {padding: 40px 0;}
+.menu__item {margin-right:10px;}
