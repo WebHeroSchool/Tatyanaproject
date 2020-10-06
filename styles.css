@@ -4,9 +4,17 @@ body {
 
 .logo {
   font-weight: 700;
+  padding: 40px 0;
 }
-
+.wrapper{
 .header {
   display: flex;
   justify-content: space-between;
+  margin: auto;
+  width: 80%;
+  border: dashed 1px red;
+}
+.menu__item:last-child{
+ padding: 0 13px;
+ border:dashed 1px red;
 }
