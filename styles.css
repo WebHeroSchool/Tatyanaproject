@@ -1,24 +1,31 @@
 body {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   display: flex;
   justify-content: center;
 }
 
 .logo {
-  font-weight: 700;
-  padding: 40px 0;
+  width: 190px;
+  height: 35px;
+  background: url(img/logo.svg);
 }
+
 .wrapper{
   width: 80%;
 }
+
 .header {
   display: flex;
   justify-content: space-between;
   margin: auto;
   width: 100%;
+  align-items: center;
 }
+
 .menu__item:last-child{
  margin: 0;
 }
+
 .menu {padding: 40px 0;}
+
 .menu__item {margin-right:10px;}
