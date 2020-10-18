@@ -26,33 +26,34 @@ body {
  margin: 0;
 }
 
-.menu {padding: 40px 0;}
-
-.menu__item {margin-right:10px;}
+.menu {
+  padding: 40px 0;
+  display: flex;
+}
 
 .menu__item {
  padding: 0 13px;
  font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
  color: #000;
  text-decoration: none;
+ margin-right:10px;
 }
 
 .menu__item:after {
-  position: absolute;
-  left: 0;
   display: block;
   content: "";
   width: 0;
   height: 3px;
   background: #0056EC;
   opacity: 0;
-  transition: opacity .5s, width .5s;
-
+  transition: opacity 0.5s, width 0.5s;
 }
+
 .menu__item:hover{
   opacity: 0.5;
 }
-.menu__item:hover::after,.menu__item_active:after {
+
+.menu__item:hover::after, .menu__item_active::after {
   opacity: 1;
   width: 100%;
 }
