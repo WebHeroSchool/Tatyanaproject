@@ -57,3 +57,23 @@ body {
   opacity: 1;
   width: 100%;
 }
+
+.main{
+  padding-top: 100px;
+  width: 37%;
+  background: no-repeat url{"./img/Frame.svg"};
+  border: 1px solid red;
+}
+.main-content__title{
+  margin: 0 0 40px 0;
+  font: bold 50px/65px 'PT Serif', arial, helvetica, sans-serif;
+}
+
+.main-content__subtitle{
+  margin: 0 0 41px 0;
+  font: 18/21px Roboto, arial, helvetica, sans-serif;
+}
+
+.main__button {
+font: 14px/16px Roboto, arial, helvetica, sans-serif;
+}
