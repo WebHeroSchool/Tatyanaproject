@@ -20,6 +20,7 @@ body {
   margin: auto;
   width: 100%;
   align-items: center;
+  margin-bottom: 6vw;
 }
 
 .menu__item:last-child{
@@ -60,20 +61,38 @@ body {
 
 .main{
   padding-top: 100px;
+  background: top right no-repeat url("./img/Frame.svg");
+  height: 40vw;
   width: 37%;
-  background: no-repeat url{"./img/Frame.svg"};
-  border: 1px solid red;
+  padding-right: 63%;
+
 }
 .main-content__title{
   margin: 0 0 40px 0;
-  font: bold 50px/65px 'PT Serif', arial, helvetica, sans-serif;
+  font: bold 65px/65px 'PT Serif', arial, helvetica, sans-serif;
 }
 
 .main-content__subtitle{
   margin: 0 0 41px 0;
   font: 18/21px Roboto, arial, helvetica, sans-serif;
+
 }
 
 .main__button {
-font: 14px/16px Roboto, arial, helvetica, sans-serif;
+font: 14px/18px Roboto, arial, helvetica, sans-serif;
+background-color: #0056EC;
+padding: 0.8vw 1.8vw;
+color: white;
+border-radius: 4px;
+
+}
+
+.main-content__title span {
+ background-color: #ECF3FF;
+ line-height: 4.5vw;
+}
+
+.main-subtitle {
+ font: 15px/22px Roboto;
+ width: 60%;
 }
